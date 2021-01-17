@@ -1,1 +1,26 @@
-<h1>Hello World</h1>
+<!-- TODO: move this code to a partial named comments.html -->
+<div class="comments">
+  <div class="comments-header">
+    <!-- // TODO: Get and SVG icon and add it here  -->
+    <div class="comments-count font-main">
+      <span id="js_amount_comments">Loading</span> Comments
+    </div>
+    <div class="comments-sort">
+      Sort
+      <!-- // TODO: Style the buttons properly and unselect the other button
+      when one of them is selected. Also, remove the select on the first load of data  -->
+      <button id="js_btn_likes" class="button">Likes</button>
+      <button id="js_btn_date" class="button selected">Newest</button>
+    </div>
+  </div>
+  <!-- // TODO: Do a proper grid here insted of just centering the div  -->
+  <div id="js_comments" class="comment-wrapper">
+    <div class="comment">
+      <div class="comment-header">
+        <div>
+          <span class="comment-username font-main">Loading ...</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

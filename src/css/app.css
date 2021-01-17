@@ -1,2 +1,4 @@
 @import 'core/reset.css';
+@import 'elements/template.css';
 @import 'elements/site-logo.css';
+@import 'elements/comments.css';

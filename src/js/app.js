@@ -1,3 +1,6 @@
-const Utils = require('./utils');
+import Comments from './comments';
 
+const Utils = require('./utils');
 new Utils();
+
+Comments.init();

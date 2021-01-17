@@ -1,5 +1,15 @@
 .site-logo {
-	height: 48px;
-	padding: 2rem 1rem;
-	width: 285px;
+	/* height: 48px; */
+	/* padding: 2rem 1rem; */
+	margin-top: 0.75em;
+	margin-bottom: 3.5em;
+	width: 12em;
+	/* overflow: visible; */
+}
+
+@media only screen and (max-width: 768px) {
+	/* Mobile */
+	.site-logo {
+		margin-bottom: 1.375em;
+	}
 }

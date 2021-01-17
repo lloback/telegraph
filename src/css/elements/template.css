@@ -1,0 +1,53 @@
+/* 
+// TODO 
+I would have installed a different pre-processor, probably SASS or SCSS
+*/
+
+.font-main {
+  /* 
+    TODO: Get the fonts from the Telegraph.co.uk website 
+    https://www.telegraph.co.uk/etc/designs/telegraph/core/clientlibs/ui/dist/static/fonts/Austin-News-Deck-Web-Semibold.woff2 etc ...
+  */
+  font-family: "Austin News Deck medium", Georgia, Times, serif;
+  color: #222222;
+  font-weight: bolder;
+}
+
+.button {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 1.5em;
+  color: #000000;
+  padding: 0.625em 1em;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+.button:hover, .button.selected:hover {
+  background-color: #04777b;
+}
+
+.button.selected {
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+
+
+.wrapper {
+  /* border: 1px solid black; */
+  max-width: 96em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Mobile */
+  .wrapper {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+}
