@@ -1,8 +1,7 @@
 import "regenerator-runtime/runtime.js";
 import Comments from './comments';
 
-// TODO - test coverage for the HTML of the page, including buttons and text
-// import the files using fs
+// TODO - test coverage for the HTML / DOM, including buttons and text
 
 
 describe( 'Comments', () => {
